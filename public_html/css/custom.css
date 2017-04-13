@@ -199,9 +199,13 @@ a {
 /*# sourceMappingURL=custom.css.map */
 
 
+.pi-retro {
+    background-color: #c1216f;
+}
 
-
-
+a {
+    color: #c1216f;
+}
 
 .header a {
     margin: 0;
