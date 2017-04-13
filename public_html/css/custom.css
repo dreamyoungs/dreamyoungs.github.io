@@ -206,8 +206,10 @@ a {
 .header a {
     margin: 0;
     display: block;
+    text-ailgn: center;
 }
 
 .header .head-logo {
     margin: 0 auto;
+    padding-top: 120px;
 }
