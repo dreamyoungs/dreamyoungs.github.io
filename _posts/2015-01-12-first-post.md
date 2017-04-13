@@ -3,8 +3,9 @@ layout: post
 title:  "My First Blog Post"
 date:   2015-01-12 23:25:05
 author: Mahabub Islam
-categories: First Blog
+categories: Blog
 image: true
+comments: true
 ---
 
 
