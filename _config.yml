@@ -1,1 +1,20 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: DreamYoungs's Blog
+baseurl: "https://dreamyoungs.github.io"
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-test-plugin
+  - jekyll-jsonify
+  - jekyll-assets
+
+# Build settings
+markdown: kramdown
+
+# http://jekyllrb-ko.github.io/docs/permalinks/
+permalink: "/:categories/:title"
+
+# http://jekyllrb-ko.github.io/docs/pagination/
+paginate: 7
+paginate_path: "/page:num/"
