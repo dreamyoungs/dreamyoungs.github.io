@@ -200,11 +200,11 @@ a {
 
 
 .pi-retro {
-    background-color: #c1216f;
+    background-color: #c1216f !important;
 }
 
 a {
-    color: #c1216f;
+    color: #c1216f !important;
 }
 
 .header a {
