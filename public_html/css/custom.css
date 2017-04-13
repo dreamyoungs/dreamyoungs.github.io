@@ -1,6 +1,6 @@
 /*This is the header section styles*/
 .header {
-  background: url("../img/bg.jpeg") 50% 0 no-repeat fixed;
+  background: url("../../assets/layout/head-bg.png") 50% 0 no-repeat fixed;
   width: 100%;
   min-height: 400px;
   margin: 0 auto;
