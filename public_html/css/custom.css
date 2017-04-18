@@ -173,7 +173,8 @@
 	margin-left: 10%;
 }
 .single-post-title-main h2 {
-	font-size: 5em;
+	/*font-size: 5em;*/
+	font-size: 3em;
 	font-weight: 900;
 }
 .single-post-title-main small {
