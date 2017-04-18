@@ -62,6 +62,10 @@ header .social-pack a:hover {
 	letter-spacing: 0.07em;
 }
 
+.post-info {
+	margin: 2em 0;
+}
+
 .post-title a {
 	color: #c1216f;
 }
@@ -155,13 +159,14 @@ header .social-pack a:hover {
 }
 
 .single-post-title-main {
-	/*margin-left: 10%;*/
 }
+
 .single-post-title-main h2 {
-	/*font-size: 5em;*/
 	font-size: 3em;
 	font-weight: 900;
+	margin-bottom: 0;
 }
+
 .single-post-title-main small {
 	font-kerning: normal;
 	letter-spacing: .2em;
@@ -173,6 +178,7 @@ header .social-pack a:hover {
 	font-weight: 100;
 	font-size: 1.3em;
 }
+
 .post blockquote {
 	font-size: 1.9em;
 	font-style: italic;
@@ -183,8 +189,8 @@ header .social-pack a:hover {
 	margin-bottom: 5%;
 }
 
-.single-author {
-	margin-left: 10%;
+.post-content {
+	margin: 3em 0;
 }
 
 .about-header {
