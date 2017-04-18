@@ -169,11 +169,16 @@ section.post-info {
 /********************
 		media
 ********************/
-
 @media screen and (min-width: 64em) { /* 1030px ~ */
 }
 
 @media screen and (max-width: 64em) and (min-width: 42em) { /* 670px ~ 1030px */
+
+	article.post {
+		margin: 5%;
+		font-size: 1.2em;
+	}
+
 	.post-loop {
 		margin: 6% 10%;
 	}
@@ -184,6 +189,12 @@ section.post-info {
 }
 
 @media screen and (max-width: 42em) { /* 670px */
+
+	article.post {
+		margin: 4%;
+		font-size: 1.05em;
+	}
+
 	.post-loop {
 		margin: 3% 5%;
 	}
