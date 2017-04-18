@@ -2,6 +2,39 @@
 layout: default
 ---
 
+<!-- 페이스북 plugin-->
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '363684520694446',
+		  xfbml      : true,
+		  version    : 'v2.8'
+		});
+		FB.AppEvents.logPageView();
+	};
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+
+
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8&appId=363684520694446";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+ {% include facebook-init.html %}
+
 <!--start of the post title-->
 <section class="single-post-title-main">
 	<h2>{{ page.title }}</h2>
@@ -14,6 +47,8 @@ layout: default
 	<p>{{ content }}</p>
 </section>
 
+test
+
 <!--start of section author-->
 <section class="single-author">
 	<div class="post-details">
@@ -24,15 +59,29 @@ layout: default
 			<ul>
 				{% for category in page.categories %}
 				<li><a>{{ category }}</a></li>
-				{% endfor %}   
+				{% endfor %}
 			</ul>
 		</div>
+
+		<span>hooooooooooo</span>
 	</div>
 </section>
 <!--End of section author-->
 
 <div class="col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-8">
-	<div id="disqus_thread"></div>
+	<!--좋아요 누를 수 있게 한것 -->
+	<div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+
+
+	<!-- <div id="fb-root"></div> -->
+	<!-- Your embedded comments code -->
+	<div><h1>hohoho</h1></div>
+
+	<!-- Your embedded comments code -->
+	<div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" data-width="500"></div>
+	<div> <h1>hahahahahahahahahahahahaha</h1></div>
+	<div class="fb-comments" data-href="{{ site.baseurl }}{{ page.id }}" data-numposts="10" data-width="100%"></div>
+	<!-- <div id="disqus_thread"></div>
 	<script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		var disqus_shortname = 'prioblog'; // required: replace example with your forum shortname
@@ -44,5 +93,5 @@ layout: default
 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 		})();
 	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
 </div>
