@@ -208,6 +208,10 @@ section.post-info {
 	article.post-loop {
 		margin: 6% 10%;
 	}
+
+	.post-title h2 {
+		font-size: 2em;
+	}
 }
 
 @media screen and (max-width: 42em) { /* 670px */
@@ -215,6 +219,10 @@ section.post-info {
 	article.post {
 		margin: 4%;
 		font-size: 1.05em;
+	}
+
+	.post-title h2 {
+		font-size: 1.7em;
 	}
 
 }
