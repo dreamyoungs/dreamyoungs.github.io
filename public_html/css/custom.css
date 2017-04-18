@@ -57,6 +57,10 @@ header .social-pack a:hover {
 	margin: 3em 20em;
 }
 
+.post-loop .post-button {
+	background-color: #c1216f;
+}
+
 .post-loop .post-title {
 	font-weight: 900;
 	letter-spacing: 0.07em;
