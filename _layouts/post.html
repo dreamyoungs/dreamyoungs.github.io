@@ -2,19 +2,20 @@
 layout: default
 ---
 
-<!--start of the post title-->
+<!-- post title-->
 <section class="single-post-title-main">
 	<h2>{{ page.title }}</h2>
 	{% if page.author %}<small>Written by {{ page.author }}.</small>{% endif %}
 </section>
-<!--End of the post title-->
+<!-- //the post title-->
 
-<!--Start of the section post-->
+<!-- post content-->
 <section class="post">
-	<p>{{ content }}</p>
+	{{ content }}
 </section>
+<!-- //post content-->
 
-<!--start of section author-->
+<!-- section author-->
 <section class="single-author">
 	<div class="post-details">
 		<span> Done At: {{ page.date | date: "%b %-d, %Y" }}</span>
@@ -28,9 +29,9 @@ layout: default
 	<div class="fb-comments" data-href="{{ site.baseurl }}{{ page.id }}" data-width="100%" data-numposts="10" data-colorscheme="dark"></div>
 	{% endif %}
 </section>
-<!--End of section author-->
+<!-- //section author-->
 
-<!--start of facebook comments -->
+<!-- facebook comments -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -39,5 +40,4 @@ layout: default
   js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8&appId=1127912933983675";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<!--End of facebook comments -->
+<!-- //facebook comments -->

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 *,
 *::before,
@@ -13,7 +13,6 @@ body {
 	width: 100%;
 	font-size: 1em;
 	line-height: 1.5;
-	margin: 0;
 	font-family: "Nanum Gothic", sans-serif;
 }
 
@@ -24,9 +23,35 @@ table {
 	text-align: left;
 }
 
-code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal; color: #333; font-size: 12px; overflow-x: auto; }
-pre { padding: 20px; background: #3A3C42; color: #c0c1c5; }
-pre code { color: #f8f8f2 !important; }
+code, pre {
+	font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+	color: #333;
+	font-size: 12px;
+	overflow-x: auto;
+}
+pre {
+	padding: 20px;
+	background: #3A3C42;
+	color: #c0c1c5;
+}
+pre code {
+	color: #f8f8f2 !important;
+}
+
+pre code, pre tt {
+	display: inline;
+	max-width: initial;
+	padding: 0;
+	margin: 0;
+	overflow: initial;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+pre code:before, pre code:after, pre tt:before, pre tt:after {
+	content: normal;
+}
 
 .highlight, .highlight .w {
 	color: #d0d0d0;
@@ -103,11 +128,45 @@ pre code { color: #f8f8f2 !important; }
 	color: #90a959;
 }
 
-code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
-pre { padding: 0.8rem; margin-top: 0; margin-bottom: 1rem; font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace; word-wrap: normal; /*color: #567482; background-color: #f3f6fa; border: solid 1px #dce6f0;*/ border-radius: 0.3rem; }
-pre > code { padding: 0; margin: 0; font-size: 0.9rem; /*color: #567482;*/ word-break: normal; white-space: pre; background: transparent; border: 0; }
-.highlight { margin-bottom: 1rem; }
-.highlight pre { margin-bottom: 0; word-break: normal; }
-.highlight pre { padding: 0.8rem; overflow: auto; font-size: 0.9rem; line-height: 1.45; border-radius: 0.3rem; -webkit-overflow-scrolling: touch; }
-pre code, pre tt { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; }
-pre code:before, pre code:after, pre tt:before, pre tt:after { content: normal; }
+code {
+	padding: 2px 4px;
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 0.9rem;
+	color: #567482;
+	background-color: #f3f6fa;
+	border-radius: 0.3rem;
+}
+pre {
+	padding: 0.8rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	word-wrap: normal;
+	/*color: #567482;
+	background-color: #f3f6fa;
+	border: solid 1px #dce6f0;*/ border-radius: 0.3rem;
+}
+pre > code {
+	padding: 0;
+	margin: 0;
+	font-size: 0.9rem;
+	/*color: #567482;*/ word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+.highlight {
+	margin-bottom: 1rem;
+}
+.highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+.highlight pre {
+	padding: 0.8rem;
+	overflow: auto;
+	font-size: 0.9rem;
+	line-height: 1.45;
+	border-radius: 0.3rem;
+	-webkit-overflow-scrolling: touch;
+}

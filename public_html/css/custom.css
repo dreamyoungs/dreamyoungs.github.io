@@ -1,5 +1,5 @@
 /*This is the header section styles*/
-.header {
+header {
 	background-image: url("../../assets/layout/head-bg.jpg");
 	width: 100%;
 	min-height: 447px;
@@ -10,7 +10,7 @@
 	background-repeat: no-repeat;
 }
 
-.header h2 {
+header h2 {
 	text-align: center;
 	font-size: 3em;
 	font-weight: 900;
@@ -18,11 +18,13 @@
 	letter-spacing: 0.2em;
 	margin-top: 10%;
 }
-.header h2 a {
+
+header h2 a {
 	margin-left: 0%;
 	color: #fff;
 }
-.header p {
+
+header p {
 	text-align: center;
 	font-size: 1.2em;
 	font-weight: 600;
@@ -30,41 +32,30 @@
 	letter-spacing: .1em;
 	margin-top: 2%;
 }
-.header a {
+header a {
 	text-decoration: none !important;
 	margin-left: 80%;
 	color: #fff;
 }
-@media screen and (max-width: 360px) {
-	.header a {
-		margin-left: 60%;
-	}
-}
-.header .tab {
+
+header .tab {
 	font-weight: 900;
 	font-size: 1.4em;
 }
-.header .social-pack {
+header .social-pack {
 	text-align: center;
 }
-.header .social-pack a {
+header .social-pack a {
 	text-decoration: none;
 }
-.header .social-pack a:hover {
+header .social-pack a:hover {
 	color: #00b3ee;
 }
 
 .post-loop {
-	margin-top: 10%;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-bottom: 10%;
+	margin: 3em 20em;
 }
-@media screen and (max-width: 360px) {
-	.post-loop {
-		margin: 0% 5%;
-	}
-}
+
 .post-loop .post-title {
 	font-size: 1.6em;
 	font-weight: 900;
@@ -76,8 +67,9 @@
 	margin-top: 2%;
 	line-height: 1.5em;
 }
+
 .post-loop .single-post + .single-post {
-	margin-top: 10%;
+	margin-top: 5em;
 }
 
 .post-details {
@@ -124,11 +116,6 @@
 	padding-left: 1%;
 	text-align: center;
 }
-@media screen and (max-width: 360px) {
-	.icon-pack {
-		margin-left: 12%;
-	}
-}
 
 /*This is the styles of single page post header*/
 .single-post-title {
@@ -139,22 +126,11 @@
 	margin-left: 42%;
 	margin-top: 5%;
 }
-@media screen and (max-width: 360px) {
-	.single-post-title {
-		margin-left: 30%;
-		display: inline-block;
-	}
-}
 
 .single-about-link {
 	text-decoration: none;
 	color: #0f0f0f;
 	margin-left: 25%;
-}
-@media screen and (max-width: 360px) {
-	.single-about-link {
-		margin-left: 78%;
-	}
 }
 
 .single-post-image-holder {
@@ -213,18 +189,6 @@
 	font-weight: 900;
 	font-size: 2.5em;
 }
-@media screen and (max-width: 360px) {
-	.about-header {
-		margin-left: 27%;
-	}
-	.about-header img {
-		margin: 5% 5%;
-	}
-	.about-header h2 {
-		margin-left: 0%;
-		font-size: 1.5em;
-	}
-}
 
 .about-bio {
 	margin: 5% 10%;
@@ -250,13 +214,55 @@ a {
 	color: #c1216f !important;
 }
 
-.header a {
+header a {
 	margin: 0;
 	display: block;
 	text-align: center;
 }
 
-.header .head-logo {
+header .head-logo {
 	margin: 0 auto;
 	padding-top: 160px;
+}
+
+
+@media screen and (min-width: 64em) { /* 1030px ~ */
+	.post-loop {
+		margin: 6% 20%;
+	}
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) { /* 670px ~ 1030px */
+	.post-loop {
+		margin: 6% 10%;
+	}
+}
+
+@media screen and (max-width: 42em) { /* 670px */
+	.post-loop {
+		margin: 3% 5%;
+	}
+
+	.icon-pack {
+		margin-left: 12%;
+	}
+
+	.single-post-title {
+		margin-left: 30%;
+		display: inline-block;
+	}
+	.single-about-link {
+		margin-left: 78%;
+	}
+
+	.about-header {
+		margin-left: 27%;
+	}
+	.about-header img {
+		margin: 5% 5%;
+	}
+	.about-header h2 {
+		margin-left: 0%;
+		font-size: 1.5em;
+	}
 }
