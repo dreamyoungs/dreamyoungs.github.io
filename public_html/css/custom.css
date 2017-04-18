@@ -1,119 +1,4 @@
-/*This is the header section styles*/
-header {
-	background-image: url("../../assets/layout/head-bg.jpg");
-	width: 100%;
-	min-height: 447px;
-	margin: 0 auto;
-	padding: 0;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
 
-header h2 {
-	text-align: center;
-	font-size: 3em;
-	font-weight: 900;
-	color: #fff;
-	letter-spacing: 0.2em;
-	margin-top: 10%;
-}
-
-header h2 a {
-	margin-left: 0%;
-	color: #fff;
-}
-
-header p {
-	text-align: center;
-	font-size: 1.2em;
-	font-weight: 600;
-	color: #fff;
-	letter-spacing: .1em;
-	margin-top: 2%;
-}
-header a {
-	text-decoration: none !important;
-	margin-left: 80%;
-	color: #fff;
-}
-
-header .tab {
-	font-weight: 900;
-	font-size: 1.4em;
-}
-
-header .social-pack {
-	text-align: center;
-}
-
-header .social-pack a {
-	text-decoration: none;
-}
-
-header .social-pack a:hover {
-	color: #00b3ee;
-}
-
-.post-loop {
-	margin: 6% 20%;
-}
-
-.post-loop .post-button {
-	background-color: #c1216f;
-}
-
-.post-loop .post-title {
-	font-weight: 900;
-	letter-spacing: 0.07em;
-}
-
-.post-info {
-	margin: 2em 0;
-}
-
-.post-title a {
-	color: #c1216f;
-}
-
-.post-loop .post-excerpt {
-	font-size: 0.9em;
-	margin-top: 2%;
-	line-height: 1.5em;
-}
-
-.post-loop .single-post + .single-post {
-	margin-top: 5em;
-}
-
-.post-details {
-	font-weight: 700;
-}
-
-.post-details em {
-	color: #444444;
-	font-size: .9em;
-	display: inline;
-	float: left;
-	padding-right: 1%;
-}
-
-.post-details ul {
-	font-size: 0.9em;
-}
-
-.post-details ul li {
-	list-style: none;
-	display: inline;
-}
-
-.post-details ul li a {
-	background-color: #07736B;
-	color: #fff;
-	padding: 2px;
-	border-radius: 5px;
-	text-decoration: none;
-}
 
 .pagignation {
 	margin-left: 22%;
@@ -164,27 +49,6 @@ header .social-pack a:hover {
 	height: inherit;
 }
 
-section.post-title {
-}
-
-.post-title h2 {
-	font-size: 2.3em;
-	font-weight: 900;
-	margin-bottom: 0;
-}
-
-.post-title small {
-	font-kerning: normal;
-	letter-spacing: .2em;
-	font-weight: 700;
-}
-
-article.post {
-	margin: 5% 10%;
-	font-weight: 100;
-	font-size: 1.3em;
-}
-
 .post blockquote {
 	font-size: 1.9em;
 	font-style: italic;
@@ -193,10 +57,6 @@ article.post {
 	margin-left: 0% !important;
 	margin-top: 5%;
 	margin-bottom: 5%;
-}
-
-.post-content {
-	margin: 3em 0;
 }
 
 .about-header {
@@ -226,26 +86,9 @@ article.post {
 }
 
 @media screen and (max-width: 64em) and (min-width: 42em) { /* 670px ~ 1030px */
-	.post-loop {
-		margin: 6% 10%;
-	}
-
-	.post-title h2 {
-		font-size: 1.9em;
-	}
 }
 
 @media screen and (max-width: 42em) { /* 670px */
-	.post-loop {
-		margin: 3% 5%;
-	}
-
-	.post-title h2 {
-		font-size: 1.5em;
-	}
-
-
-
 
 	.icon-pack {
 		margin-left: 12%;

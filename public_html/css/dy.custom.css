@@ -39,8 +39,28 @@ a:hover {
 }
 
 /********************
-	header.html
+		header.html
 ********************/
+header {
+	background-image: url("../../assets/layout/head-bg.jpg");
+	width: 100%;
+	min-height: 447px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+header h2 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 900;
+	color: #fff;
+	letter-spacing: 0.2em;
+	margin-top: 10%;
+}
+
 header a {
 	margin: 0;
 	display: block;
@@ -52,14 +72,126 @@ header .head-logo {
 	padding-top: 160px;
 }
 
+/********************
+		default.html
+********************/
+article.post-loop {
+	margin: 6% 20%;
+}
 
+.post-loop .post-button {
+	background-color: #c1216f;
+}
 
+.post-loop .post-title {
+	font-weight: 900;
+}
 
+.post-loop .post-excerpt {
+	font-size: 0.9em;
+	margin-top: 2%;
+	line-height: 1.5em;
+}
 
+.post-loop .post-list-wrap + .post-list-wrap {
+	margin-top: 5em;
+}
 
+.post-loop .post-img img {
+	width: 100%;
+}
 
+/********************
+		post.html
+********************/
+article.post {
+	margin: 5% 10%;
+	font-weight: 100;
+	font-size: 1.3em;
+}
 
+section.post-title {
+}
 
+.post-title h2 {
+	font-size: 2.3em;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.post-title small {
+	font-kerning: normal;
+	letter-spacing: .2em;
+	font-weight: 700;
+}
+
+.post-title a {
+	color: #c1216f;
+}
+
+section.post-content {
+	margin: 3em 0;
+}
+
+section.post-info {
+	margin: 2em 0;
+}
+
+.post-info .post-details {
+	font-weight: 700;
+}
+
+.post-details em {
+	color: #444444;
+	font-size: .9em;
+	display: inline;
+	float: left;
+	padding-right: 1%;
+}
+
+.post-details ul {
+	font-size: 0.9em;
+}
+
+.post-details ul li {
+	list-style: none;
+	display: inline;
+}
+
+.post-details ul li a {
+	background-color: #07736B;
+	color: #fff;
+	padding: 2px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/********************
+		media
+********************/
+
+@media screen and (min-width: 64em) { /* 1030px ~ */
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) { /* 670px ~ 1030px */
+	.post-loop {
+		margin: 6% 10%;
+	}
+
+	.post-title h2 {
+		font-size: 1.9em;
+	}
+}
+
+@media screen and (max-width: 42em) { /* 670px */
+	.post-loop {
+		margin: 3% 5%;
+	}
+
+	.post-title h2 {
+		font-size: 1.5em;
+	}
+}
 
 /********************
 		code
@@ -183,15 +315,14 @@ pre {
 	margin-bottom: 1rem;
 	font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	word-wrap: normal;
-	/*color: #567482;
-	background-color: #f3f6fa;
-	border: solid 1px #dce6f0;*/ border-radius: 0.3rem;
+	border-radius: 0.3rem;
 }
 pre > code {
 	padding: 0;
 	margin: 0;
 	font-size: 0.9rem;
-	/*color: #567482;*/ word-break: normal;
+	line-height: 1.6em;
+	word-break: normal;
 	white-space: pre;
 	background: transparent;
 	border: 0;
