@@ -42,9 +42,11 @@ header .tab {
 	font-weight: 900;
 	font-size: 1.4em;
 }
+
 header .social-pack {
 	text-align: center;
 }
+
 header .social-pack a {
 	text-decoration: none;
 }
@@ -54,7 +56,7 @@ header .social-pack a:hover {
 }
 
 .post-loop {
-	margin: 3em 20em;
+	margin: 6% 20%;
 }
 
 .post-loop .post-button {
@@ -162,22 +164,22 @@ header .social-pack a:hover {
 	height: inherit;
 }
 
-.single-post-title-main {
+section.post-title {
 }
 
-.single-post-title-main h2 {
-	font-size: 3em;
+.post-title h2 {
+	font-size: 2.3em;
 	font-weight: 900;
 	margin-bottom: 0;
 }
 
-.single-post-title-main small {
+.post-title small {
 	font-kerning: normal;
 	letter-spacing: .2em;
 	font-weight: 700;
 }
 
-.post {
+article.post {
 	margin: 5% 10%;
 	font-weight: 100;
 	font-size: 1.3em;
@@ -215,39 +217,21 @@ header .social-pack a:hover {
 	font-weight: 200;
 }
 
-a {
-	text-decoration: none !important;
-}
-
-a:hover {
-	color: #000 !important;
-}
-
 .pi-retro {
 	background-color: #c1216f !important;
 }
 
-header a {
-	margin: 0;
-	display: block;
-	text-align: center;
-}
-
-header .head-logo {
-	margin: 0 auto;
-	padding-top: 160px;
-}
-
 
 @media screen and (min-width: 64em) { /* 1030px ~ */
-	.post-loop {
-		margin: 6% 20%;
-	}
 }
 
 @media screen and (max-width: 64em) and (min-width: 42em) { /* 670px ~ 1030px */
 	.post-loop {
 		margin: 6% 10%;
+	}
+
+	.post-title h2 {
+		font-size: 1.9em;
 	}
 }
 
@@ -255,6 +239,13 @@ header .head-logo {
 	.post-loop {
 		margin: 3% 5%;
 	}
+
+	.post-title h2 {
+		font-size: 1.5em;
+	}
+
+
+
 
 	.icon-pack {
 		margin-left: 12%;
