@@ -5,7 +5,7 @@ layout: default
 <!--start of the post title-->
 <section class="single-post-title-main">
 	<h2>{{ page.title }}</h2>
-	<small>Written by Mahabub I.</small>
+	{% if page.author %}<small>Written by {{ page.author }}.</small>{% endif %}
 </section>
 <!--End of the post title-->
 
@@ -17,15 +17,9 @@ layout: default
 <!--start of section author-->
 <section class="single-author">
 	<div class="post-details">
-		{% if page.author %}<p>Written by : {{ page.author }}</p>{% endif %}
 		<span> Done At: {{ page.date | date: "%b %-d, %Y" }}</span>
 		<div class="categories">
-			<em>Categories:</em>
-			<ul>
-				{% for category in page.categories %}
-				<li><a>{{ category }}</a></li>
-				{% endfor %}
-			</ul>
+			<em>Category: {{ page.categories }}</em>
 		</div>
 	</div>
 
