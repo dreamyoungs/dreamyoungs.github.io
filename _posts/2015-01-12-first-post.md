@@ -5,7 +5,7 @@ date:   2015-01-12 23:25:05
 author: Mahabub Islam
 categories: Blog
 image: true
-comments: false
+fbcomments: true
 ---
 
 
@@ -17,5 +17,8 @@ comments: false
 
 
 
-
-{% if page.comments %}  {% endif %}
+{% if page.fbcomments %}
+    <hr/>
+    <h4>Comments</h4>
+    <div class="fb-comments" data-href="http://joshuacox.github.io{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+{% endif %}
