@@ -76,7 +76,7 @@ header .head-logo {
 		default.html
 ********************/
 article.post-loop {
-	margin: 6% 20%;
+	margin: 3% 5%;
 }
 
 .post-loop .post-button {
@@ -182,7 +182,7 @@ section.post-info {
 		font-size: 1.2em;
 	}
 
-	.post-loop {
+	article.post-loop {
 		margin: 6% 10%;
 	}
 }
@@ -192,10 +192,6 @@ section.post-info {
 	article.post {
 		margin: 4%;
 		font-size: 1.05em;
-	}
-
-	.post-loop {
-		margin: 3% 5%;
 	}
 
 }
