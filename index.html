@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section>
+<section class="post-list">
 	{% for post in paginator.posts %}
 	<div class="post-list-wrap">
 		<div>
@@ -19,9 +19,9 @@ layout: default
 	{% endfor %}
 </section>
 
-<section>
+<section class="post-pagination">
 	<!-- Pagination links -->
-	<ul class="pagination custom-ul hoz-li">
+	<ul class="pagination">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
 			<li><a href="/">Prev</a></li>

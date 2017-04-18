@@ -31,7 +31,7 @@ a {
 }
 
 a:visited {
-	color: #000;
+	/*color: #000;*/
 }
 
 a:hover {
@@ -93,12 +93,35 @@ article.post-loop {
 	line-height: 1.5em;
 }
 
-.post-loop .post-list-wrap + .post-list-wrap {
+.post-loop .post-img img {
+	width: 100%;
+}
+
+section.post-list {
+	margin: 2em 0;
+}
+
+.post-list .post-list-wrap + .post-list-wrap {
 	margin-top: 5em;
 }
 
-.post-loop .post-img img {
-	width: 100%;
+section.post-pagination {
+	margin-top: 3em;
+}
+
+.post-pagination ul.pagination {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+.post-pagination .pagination li {
+	float: left;
+	padding: 0.2em 0.5em;
+}
+
+.post-pagination .pagination li:nth-child(1) {
+	padding-left: 0 !important;
 }
 
 /********************
