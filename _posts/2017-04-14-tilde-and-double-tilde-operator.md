@@ -1,13 +1,14 @@
 ---
 layout: post
+comments: true
 title: "제이쿼리 물결 연산자 ( tilde 연산자 )"
 description: "물결(~) 과 물결물결(~~) 연산자 사용법"
-categories: js
+category: js
 author: Ari Kim
 date: 2017-04-14 16:52:00
 tags: [js, indexof, floor]
-comments: true
 ---
+
 ## 1. tilde( ~ ) 연산자
 -(n+1) 의 결과를 출력합니다.
 
