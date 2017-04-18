@@ -5,7 +5,7 @@ date:   2015-01-12 23:25:05
 author: Mahabub Islam
 categories: Blog
 image: true
-fbcomments: yes
+
 ---
 
 
