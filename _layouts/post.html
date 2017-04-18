@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- 페이스북 부분 -->
+<!-- 페이스북 plugin-->
 <script>
 	window.fbAsyncInit = function() {
 		FB.init({
@@ -23,6 +23,7 @@ layout: default
 </script>
 
 
+ {% include facebook-init.html %}
 
 <!--start of the post title-->
 <section class="single-post-title-main">
@@ -52,40 +53,18 @@ layout: default
 	</div>
 </section>
 <!--End of section author-->
-https://www.facebook.com/profile.php?id=100010084512832
-<div class="col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-8">
+
+	<div class="col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-8">
+
+	{% if page.fbcomments %}
+        <hr/>
+        <h4>Comments</h4>
+        <div class="fb-comments" data-href="http://joshuacox.github.io{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
+    {% endif %}
+
+	<div class="fb-like" data-share="true" data-width="450" data-show-faces="true"> </div> <!--좋아요 누를 수 있게 한것 -->
 
 
-
-	<div> <h1> hihi</h1></div>
-	<div
-	  class="fb-like"
-	  data-share="true"
-	  data-width="450"
-	  data-show-faces="true">
-	</div>
-
-	<!-- <div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-	<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
- -->
 		<!-- Your embedded comments code -->
 
 		<div> <h1> hoho</h1></div>
