@@ -48,6 +48,7 @@ header .social-pack {
 header .social-pack a {
 	text-decoration: none;
 }
+
 header .social-pack a:hover {
 	color: #00b3ee;
 }
@@ -57,11 +58,14 @@ header .social-pack a:hover {
 }
 
 .post-loop .post-title {
-	font-size: 1.6em;
 	font-weight: 900;
-	color: #777;
 	letter-spacing: 0.07em;
 }
+
+.post-title a {
+	color: #c1216f;
+}
+
 .post-loop .post-excerpt {
 	font-size: 0.9em;
 	margin-top: 2%;
@@ -75,6 +79,7 @@ header .social-pack a:hover {
 .post-details {
 	font-weight: 700;
 }
+
 .post-details em {
 	color: #444444;
 	font-size: .9em;
@@ -82,13 +87,16 @@ header .social-pack a:hover {
 	float: left;
 	padding-right: 1%;
 }
+
 .post-details ul {
 	font-size: 0.9em;
 }
+
 .post-details ul li {
 	list-style: none;
 	display: inline;
 }
+
 .post-details ul li a {
 	background-color: #07736B;
 	color: #fff;
@@ -102,9 +110,11 @@ header .social-pack a:hover {
 	margin-bottom: 5%;
 	display: block;
 }
+
 .pagignation ul {
 	list-style: none;
 }
+
 .pagignation ul .page-numbers a {
 	text-decoration: none;
 	float: left;
@@ -117,7 +127,6 @@ header .social-pack a:hover {
 	text-align: center;
 }
 
-/*This is the styles of single page post header*/
 .single-post-title {
 	text-align: center;
 	font-weight: 900;
@@ -146,7 +155,7 @@ header .social-pack a:hover {
 }
 
 .single-post-title-main {
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 }
 .single-post-title-main h2 {
 	/*font-size: 5em;*/
@@ -199,19 +208,13 @@ header .social-pack a:hover {
 a {
 	text-decoration: none !important;
 }
+
 a:hover {
 	color: #000 !important;
 }
 
-/*# sourceMappingURL=custom.css.map */
-
-
 .pi-retro {
 	background-color: #c1216f !important;
-}
-
-a {
-	color: #c1216f !important;
 }
 
 header a {

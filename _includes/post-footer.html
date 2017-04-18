@@ -1,0 +1,26 @@
+<!-- section author-->
+<section class="single-author">
+	<div class="post-details">
+		<span> Done At: {{ page.date | date: "%b %-d, %Y" }}</span>
+		<div class="categories">
+			<em>Category: {{ page.categories }}</em>
+		</div>
+	</div>
+
+	{% if page.comments %}
+	<div class="fb-like" data-href="{{ site.baseurl }}{{ page.id }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+	<div class="fb-comments" data-href="{{ site.baseurl }}{{ page.id }}" data-width="100%" data-numposts="10" data-colorscheme="dark"></div>
+	{% endif %}
+</section>
+<!-- //section author-->
+
+<!-- facebook comments -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8&appId=1127912933983675";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- //facebook comments -->
