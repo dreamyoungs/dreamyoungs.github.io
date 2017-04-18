@@ -14,3 +14,8 @@ comments: false
 <img class="img-responsive img-post" src=" {{site.baseurl}}/public_html/img/tiger.jpeg "/>
 </div>
 {% endif %}
+
+
+
+
+{% if page.comments %}  {% endif %}
