@@ -16,5 +16,5 @@ markdown: kramdown
 permalink: "/:categories/:title"
 
 # http://jekyllrb-ko.github.io/docs/pagination/
-paginate: 7
+paginate: 2
 paginate_path: "/page:num/"
