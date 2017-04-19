@@ -24,7 +24,7 @@ tags: [facebook,chatbot,gcp]
     - 승인 요청도 나중에 해야 하구요.
 - 챗봇을 등록할 페이지도 있어야 해요.
 
-- 그러고 나면 저희의 경우에는 Google Cloud Loadbalancer 를 사용하니까 거기도 설정을 해줘야하고,
+- 그러고 나면 저희의 경우에는 Google Cloud Loadbalancer (GCLB) 를 사용하니까 거기도 설정을 해줘야하고,
 - Nginx에도 설정을 해줘야 라우팅을 하고,
 - 그 다음에 Node로 Express준비를 해줘야 해요.
 
@@ -36,3 +36,11 @@ tags: [facebook,chatbot,gcp]
 축하드립니다.
 
 이제 챗봇 개발을 시작할 수 있어요!
+
+ps. 꿈많은청년들에서 작업을 할때는 물론 Domain / SSL / HTTPS는 준비가 되어 있어요.<br>
+하지만 GCLB에 수정은 좀 해줘야 하고 NginX랑 새로운 챗봇 페북앱을 설정은 해줘야 해요.<br>
+자잘한 작업들을 해줘야 하는데.. 그게 많이 귀찮아요.
+
+그래서 우리는 더 큰 무엇인가를 준비하고 있습니다..
+
+커밍순..
