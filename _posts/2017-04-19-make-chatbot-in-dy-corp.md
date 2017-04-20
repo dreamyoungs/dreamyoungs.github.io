@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "꿈많은청년들이 챗봇을 만드는 과정"
 description: "일반적이지는 않지만 어느 회사나 겪어야 하는 페이스북에서 챗봇을 만드는 과정"
-category: chatbot
+categories: chatbot
 author: Harrison Jung
 date: 2017-04-19 15:36:00
 tags: [facebook,chatbot,gcp]

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "제이쿼리 물결 연산자 ( tilde 연산자 )"
 description: "물결(~) 과 물결물결(~~) 연산자 사용법"
-category: js
+categories: js
 author: Ari Kim
 date: 2017-04-14 16:52:00
 tags: [js, indexof, floor]
