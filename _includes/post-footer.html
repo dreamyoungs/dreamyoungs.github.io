@@ -3,7 +3,7 @@
 	<div class="post-details">
 		<span> Done At: {{ page.date | date: "%b %-d, %Y" }}</span>
 		<div class="categories">
-			<em>Category: {% for cg in post.categories %}{{ cg }}{% if forloop.last == false %}, {% endif %}{% endfor %}</em>
+			<em>Category: {% for cg in page.categories %}{{ cg }}{% if forloop.last == false %}, {% endif %}{% endfor %}</em>
 		</div>
 	</div>
 </section>
