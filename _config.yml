@@ -18,3 +18,9 @@ permalink: "/:categories/:title"
 # http://jekyllrb-ko.github.io/docs/pagination/
 paginate: 2
 paginate_path: "/page:num/"
+
+# User Setting
+post_img: "/assets/post"
+og_img: "/assets/ogimage"
+css_route: "/public_html/css/"
+js_route: "/public_html/js/"
