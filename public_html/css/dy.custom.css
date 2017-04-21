@@ -359,7 +359,8 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 code {
 	padding: 2px 4px;
 	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	font-size: 0.9rem;
+	/*font-size: 0.9rem;*/
+	font-size: inherit;
 	color: #567482;
 	background-color: #f3f6fa;
 	border-radius: 0.3rem;
