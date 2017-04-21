@@ -1,5 +1,5 @@
 # Site settings
-title: DreamYoungs's Blog
+title: DreamYoungs's Github Blog
 baseurl: "https://dreamyoungs.github.io"
 
 # Gems
@@ -21,6 +21,3 @@ paginate_path: "/page:num/"
 
 # User Setting
 post_img: "/assets/post"
-og_img: "/assets/ogimage"
-css_route: "/public_html/css/"
-js_route: "/public_html/js/"
