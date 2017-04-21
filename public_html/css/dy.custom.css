@@ -160,6 +160,11 @@ section.post-content {
 	max-width: 100%;
 }
 
+.post-content a {
+	color: #999;
+	text-decoration: underline !important;
+}
+
 .post-content blockquote {
 	padding: 0 1rem;
 	margin: 0.3em 0;
