@@ -156,6 +156,27 @@ section.post-content {
 	margin: 3em 0;
 }
 
+.post-content img {
+	max-width: 100%;
+}
+
+.post-content blockquote {
+	padding: 0 1rem;
+	margin: 0.3em 0;
+	color: #819198;
+	border-left: 0.3rem solid #dce6f0;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 600;
+}
+.post-content blockquote > :first-child {
+	margin-top: 0;
+}
+
+.post-content blockquote > :last-child {
+	margin-bottom: 0;
+}
+
 section.post-info {
 	margin: 2em 0;
 }
