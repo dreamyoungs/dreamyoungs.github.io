@@ -7,7 +7,7 @@ description: "옐로아이디와 서버를 쉽게 연동하기"
 categories: chatbot
 date: 2017-04-21 15:39:00
 tags: [chatbot, kakao, yellowid]
-ogimage: "{{ site.post_img }}/chatbot/kakao-yellow-id04.png"
+ogimage: "/assets/post/chatbot/kakao-yellow-id04.png"
 ---
 
 천천히 따라오시면 어렵지 않습니다!
