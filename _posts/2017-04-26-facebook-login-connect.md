@@ -209,4 +209,4 @@ window.fbAsyncInit = function() {
 
 참고
 ----
-- Ari Kim's post : <http://blog.devari.kr/tip/facebook-login-connect>
+- Ari Kim's post : <http://github.devari.kr/tip/facebook-login-connect>
