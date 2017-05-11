@@ -7,7 +7,7 @@ description: "AWS Cloudfront에 HTTPS적용되는 도메인 연결하기"
 category: tip
 date: 2017-04-26 11:45:00
 tags: [aws,cloudfront,domain,https,s3]
-ogimage: "/assets/post/tip/20170509_Amazon-Cloudfront.png"
+ogimage: "/assets/post/cloud/20170509_Amazon-Cloudfront.png"
 ---
 
 꿈많은청년들은 지난번에 FBStart를 통해서 무려 $5000 라는 AWS 크레딧을 받았습니다. 그런데, 저희는 GCP 파트너사이기도 하고, 현재 주로 GCP를 쓰다보니 AWS를 쓸일이 없었습니다.
