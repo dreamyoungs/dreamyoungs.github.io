@@ -5,7 +5,7 @@ author: Harrison Jung
 title: "AWS Cloudfront 도메인 연결하기"
 description: "AWS Cloudfront에 HTTPS적용되는 도메인 연결하기"
 category: tip
-date: 2017-04-26 11:45:00
+date: 2017-05-09 11:45:00
 tags: [aws,cloudfront,domain,https,s3]
 ogimage: "/assets/post/cloud/20170509_Amazon-Cloudfront.png"
 ---
