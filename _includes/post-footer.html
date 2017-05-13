@@ -1,6 +1,7 @@
 <!-- section post-info -->
 <section class="post-info">
 	<div class="post-details">
+		<span> [ 본 블로그는 <a href="https://dreamyoungs.com">(주)꿈많은청년들</a>의 기술 블로그입니다. ]</span>
 		<span> Done At: {{ page.date | date: "%b %-d, %Y" }}</span>
 		<div class="categories">
 			<em>Category: {% for cg in page.categories %}{{ cg }}{% if forloop.last == false %}, {% endif %}{% endfor %}</em>
