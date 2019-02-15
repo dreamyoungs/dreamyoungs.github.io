@@ -85,11 +85,11 @@ ogimage: "/assets/post/tip/20170426_121254.png"
 ```javascript
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=1812242559094950";
-	fjs.parentNode.insertBefore(js, fjs);
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=★";
+    fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 ```
 
@@ -111,21 +111,21 @@ ogimage: "/assets/post/tip/20170426_121254.png"
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 </head>
 <body>
-	<!-- login btn -->
-	<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="true"></div>
+    <!-- login btn -->
+    <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="true"></div>
 
-	<!-- facebook -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=★";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.9&appId=★";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
 ```
@@ -169,41 +169,41 @@ scope 부분은 <https://developers.facebook.com/docs/facebook-login/permissions
 
 ```javascript
 function fbLogin() {
-	// 로그인 여부 체크
-	FB.getLoginStatus(function(response) {
+    // 로그인 여부 체크
+    FB.getLoginStatus(function(response) {
 
-		if (response.status === 'connected') {
-			FB.api('/me', function(res) {
-				// 제일 마지막에 실행
-				console.log("Success Login : " + response.name);
-				// alert("Success Login : " + response.name);
-			});
-		} else if (response.status === 'not_authorized') {
-			// 사람은 Facebook에 로그인했지만 앱에는 로그인하지 않았습니다.
-			alert('앱에 로그인해야 이용가능한 기능입니다.');
-		} else {
-			// 그 사람은 Facebook에 로그인하지 않았으므로이 앱에 로그인했는지 여부는 확실하지 않습니다.
-			alert('페이스북에 로그인해야 이용가능한 기능입니다.');
-		}
-	}, true); // 중복실행방지
+        if (response.status === 'connected') {
+            FB.api('/me', function(res) {
+                // 제일 마지막에 실행
+                console.log("Success Login : " + response.name);
+                // alert("Success Login : " + response.name);
+            });
+        } else if (response.status === 'not_authorized') {
+            // 사람은 Facebook에 로그인했지만 앱에는 로그인하지 않았습니다.
+            alert('앱에 로그인해야 이용가능한 기능입니다.');
+        } else {
+            // 그 사람은 Facebook에 로그인하지 않았으므로이 앱에 로그인했는지 여부는 확실하지 않습니다.
+            alert('페이스북에 로그인해야 이용가능한 기능입니다.');
+        }
+    }, true); // 중복실행방지
 }
 
 window.fbAsyncInit = function() {
-	FB.init({
-		appId   : '★',
-		cookie  : true,
-		xfbml   : true,
-		version : 'v2.8'
-	});
+    FB.init({
+        appId   : '★',
+        cookie  : true,
+        xfbml   : true,
+        version : 'v2.8'
+    });
 };
 
 (function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	// ko_KR 을 en_US 로 바꾸면 영문으로 로그인버튼을 사용할 수 있어요.
-	js.src = "//connect.facebook.net/ko_KR/sdk.js";
-	fjs.parentNode.insertBefore(js, fjs);
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    // ko_KR 을 en_US 로 바꾸면 영문으로 로그인버튼을 사용할 수 있어요.
+    js.src = "//connect.facebook.net/ko_KR/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 ```
 
